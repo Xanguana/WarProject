@@ -2,10 +2,26 @@ package africa;
 
 import principal.Pais;
 
-public class CostaMarfim extends Pais{
+/**
+ * @author aline
+ * @author leandro
+ * @version 1.0
+ */
+
+public class CostaMarfim extends Pais {
+
+	/**
+	 * 
+	 * @param nome
+	 *            define o nome do pais
+	 * @param id
+	 *            seu respectivo id
+	 *            
+	 *            Método construtor
+	 */
 
 	public CostaMarfim(String nome, int id) {
-		super(nome,id);
+		super(nome, id);
 	}
 
 }

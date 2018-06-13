@@ -2,9 +2,25 @@ package asia;
 
 import principal.Pais;
 
-public class India extends Pais{
+/**
+ * @author aline
+ * @author leandro
+ * @version 1.0
+ */
 
-	public India (String nome, int id) {
-		super(nome,id);
+public class India extends Pais {
+
+	/**
+	 * 
+	 * @param nome
+	 *            define o nome do pais
+	 * @param id
+	 *            seu respectivo id
+	 * 
+	 *            Método construtor
+	 */
+
+	public India(String nome, int id) {
+		super(nome, id);
 	}
 }

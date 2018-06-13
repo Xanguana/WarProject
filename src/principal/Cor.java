@@ -1,30 +1,34 @@
 package principal;
 
 /**
- * 
- * @author Aline e Leandro
- * 
- * Classe para definir as cores do jogo, no qual já é pre-definido os tipos de cores que poderá ser escolhido pelo Jogador
- * no ínicio do jogo, dando a ele as opções.
- *
+ * @author aline
+ * @author leandro
+ * @version 1.0 Classe utilizada especificamente para dar nome as cores
+ *          pré-definidas no jogo
  */
 
 public class Cor {
-	
+
 	private String nome_cor;
 	private boolean usado;
-	
+
 	/**
-	 * @param nome - utilizado para definir nomes das cores
-	 * @param usado - define se a cor ja foi ou não usada por um jogador
+	 * Método construtor
+	 * 
+	 * @param nome
+	 *            nome das cores que o jogo possui
+	 * @param usado
+	 *            variável definida para verificar se uma cor já foi usada ou
+	 *            não
+	 * 
 	 */
-	
+
 	public Cor(String nome, boolean usado) {
 		this.nome_cor = nome;
 		this.usado = usado;
 	}
-	
-	//gets e sets
+
+	// gets e sets
 
 	public String getNome_cor() {
 		return nome_cor;

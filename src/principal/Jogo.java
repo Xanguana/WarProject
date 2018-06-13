@@ -1,11 +1,10 @@
 package principal;
 
 /**
- * 
- * @author Aline e Leandro
- * @see Tabuleiro()
- *
- * Instância da classe Tabuleiro(), onde fica todos os pré-requisitos do que é responsabilidade do tabuleiro
+ * @author aline
+ * @author leandro
+ * @version 1.0
+ * Classe utilizada para instanciar o tabuleiro
  */
 
 public class Jogo {

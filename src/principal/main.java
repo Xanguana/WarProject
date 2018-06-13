@@ -3,15 +3,14 @@ package principal;
 public class main {
 	
 	/**
-	 * @author Aline e Leandro
+	 * @author aline
+	 * @author leandro
 	 * @param args
-	 * @see Jogo() e Tabuleiro()
 	 * 
-	 * Inicialização do Jogo, classe principal da aplicação 
+	 * Classe utilizada para inicialização do Jogo
 	 */
 	
-	public static void main(String[] args) {
-				
+	public static void main(String[] args) {				
 		Jogo jogo = new Jogo();
 		jogo.tabuleiro.inicio();
 	}

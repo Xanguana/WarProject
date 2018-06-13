@@ -2,9 +2,25 @@ package africa;
 
 import principal.Pais;
 
-public class Egito extends Pais{
+/**
+ * @author aline
+ * @author leandro
+ * @version 1.0
+ */
 
-	public Egito (String nome, int id) {
-		super(nome,id);
+public class Egito extends Pais {
+
+	/**
+	 * 
+	 * @param nome
+	 *            define o nome do pais
+	 * @param id
+	 *            seu respectivo id
+	 * 
+	 *            Método construtor
+	 */
+
+	public Egito(String nome, int id) {
+		super(nome, id);
 	}
 }

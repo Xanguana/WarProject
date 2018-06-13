@@ -2,10 +2,26 @@ package oceania;
 
 import principal.Pais;
 
-public class Australia extends Pais{
+/**
+ * @author aline
+ * @author leandro
+ * @version 1.0
+ */
 
-	public Australia (String nome, int id) {
-		super(nome,id);
+public class Australia extends Pais {
+
+	/**
+	 * 
+	 * @param nome
+	 *            define o nome do pais
+	 * @param id
+	 *            seu respectivo id
+	 * 
+	 *            Método construtor
+	 */
+
+	public Australia(String nome, int id) {
+		super(nome, id);
 	}
 
 }
