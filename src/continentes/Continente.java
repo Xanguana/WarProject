@@ -3,7 +3,14 @@ package continentes;
 import java.util.ArrayList;
 import principal.Pais;
 
+/**
+ * 
+ * @author aline e leandro
+ *
+ */
+
 public class Continente {
+	
 	private String nome;
 	private ArrayList<Pais> paises = new ArrayList<>();
 	
